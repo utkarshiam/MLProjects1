@@ -3,11 +3,11 @@ import csv
 from pandas import DataFrame
 from textblob import TextBlob
 
-con_key="KIrd3dd7BSB9UT5DNa15y2DG9" ###your key
-con_sec="YDifo1C6RmIqP9aOlR9Mi83jtCm2AbXH099vCHz2ERZKgOz50s" ###your secret
+con_key= ###your key
+con_sec= ###your secret
 
-acc_token="1058038441877753856-WpIEfvaiznbh0FTkntAdpAJ3i1lR53" ###your token
-acc_token_sec="VjUZI1jQYoHsRzovInyXL1tpyBg2NPIYID4WSX2MmCNZ8"###your token secret
+acc_token=###your token
+acc_token_sec=###your token secret
 
 auth=tweepy.OAuthHandler(con_key,con_sec)
 auth.set_access_token(acc_token,acc_token_sec)
